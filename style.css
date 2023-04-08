@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main {
+}
+.header {
+  width: 100%;
+  height: 72px;
+  border-bottom: 1px solid #ddd;
+  background-color: #212529;
+  z-index: 1;
+  position: fixed;
+}
+.zing {
+  max-width: 1155px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.zing .container-fluid {
+  padding: 7px 0;
+}
+.zing .container-fluid img {
+  width: 140px;
+  height: 24px;
+}
+.main .slider {
+  width: 100%;
+  padding: 16% 0;
+  margin-top: 72px;
+  display: inline-block;
+  position: relative;
+  background: url("./img/hinh-nen-may-tinh-dep_105436980.jpg") no-repeat left
+    center;
+  background-size: 100%;
+}
+.main .ces .container .col-sm-4 h3,
+.main .ces .container .col-sm-4 p {
+  text-align: center;
+}
+.main .polio {
+  background-color: #ced4da;
+}
+.main .polio .container .col-sm-4 h3,
+.main .polio .container .col-sm-4 p {
+  text-align: center;
+}
+.about {
+  margin-top: 30px;
+}
+.about ul {
+  width: 100%;
+}
+.about ul li {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.about .about-item:nth-child(2),
+.about .about-item:nth-child(4) {
+  float: right;
+}
+
+.about h2,
+.about p {
+  text-align: center;
+}
+.about img {
+  position: absolute;
+  top: 0;
+  left: 452px;
+  border-radius: 50%;
+}
+#textcenterbg {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+}
